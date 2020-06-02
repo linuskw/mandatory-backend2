@@ -1,0 +1,112 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.listDiv {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 1%;
+  margin-right: 5px;
+}
+
+.itemFormDiv > form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.itemFormDiv > form > button {
+  margin-top: 2px;
+}
+
+.textField {
+  width: 100%;
+}
+
+.listHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemWrapDiv {
+  width: 100%;
+}
+
+.itemDiv {
+  width: 250px;
+  min-width: 250px;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.itemDiv > p {
+  width: 130px;
+  min-width: 130px;
+  margin-left: 5px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.itemButtonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.borderlessButton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.popupBackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
+  width: 75%;
+  height: 75%;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.popupButtonWrap{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  height: 200px;
+  width: 300px;
+}
